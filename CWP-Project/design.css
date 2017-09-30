@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+    background-color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.black-overlay::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, black 80%);
+  margin-top: -500px;
+  height: 500px;
+  width: 100%;
+  content: '';
+}
+img.cover{
+	width:100%;
+}
+.content{
+	margin: 10px;
+	padding:20px;
+	
+}
+.title{
+	text-align: center;
+	font-size: 30px;
+	font-style: Impact;
+	color: white;
+}
+#descrip{
+	font-size: 14px;
+	font-family: arial;
+}
+div.gallery {
+    margin: 8px;
+    border: 2px solid;
+    float: left;
+    width: 350PX;
+}
+div.gallery:hover {
+    border: 10spx solid;
+	color: light gray;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+	display: block;
+    margin: auto;  
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+	color: white;
+}
+.navbar{
+	margin-left: 0;
+}
+label { 
+	float: left; width: 150px; 
+}
+
+input[type=text]{ 
+	float: left; width: 250px; 
+}
